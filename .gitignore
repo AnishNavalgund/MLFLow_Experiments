@@ -1,3 +1,4 @@
 .env
 .git
 .git/
+utils/__pycache__/
