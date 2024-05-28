@@ -1,4 +1,19 @@
-.env
-.git
-.git/
-utils/__pycache__/
+# .gitignore
+# Ignore everything by default
+*
+
+# Do not ignore the .gitignore file itself
+!.gitignore
+
+# Include the README.md file
+!/README.md
+
+# Include the main ipynb file
+!CatDog_Classifier.ipynb
+
+# Include the utils folder
+!utils/
+
+# Include only .py files in the utils folder and exclude everything else
+utils/*
+!utils/*.py
